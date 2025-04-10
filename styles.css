@@ -1,0 +1,121 @@
+@keyframes rainbow{
+    0% {
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
+
+    #name{
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive;
+    font-size: 60px;
+    background: linear-gradient(to right,
+    #ff69b4,
+    #dda0dd,
+    #ffffff,
+    #fffacd
+    );
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+
+    animation: rainbow 5s linear infinite;
+}
+
+.section{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.section img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3 ease;
+}
+
+.section img:hover{
+    transform: scale(1.05);
+}
+.section a{
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff69b4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.section a:hover{
+    color: #dda0dd;
+}
+
+.back-button{
+    display: inline-block;
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover{
+    background-color: #dda0dd;
+}
+
+.page-title{
+    text-align: center;
+    font_size: 36px;
+    margin-top: 40px;
+    color: #ff69b4;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.product-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-card{
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff0f5;
+    transition: transfrom 0.3 ease;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+}
+
+.product-card img{
+    width: 100%;
+    height: 200px;
+    border_radius: 10px;
+    object-fit: contain;
+    background-color: white；
+}
+
+.product-card h3{
+    font-size:18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.product-card p{
+    color: #ff69b4;
+    font-weight: bold;
+}
