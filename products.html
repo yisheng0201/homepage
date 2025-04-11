@@ -20,10 +20,26 @@
                 <img src="cup.jpg" alt="Kuromi Cup">
                 <h3>Sanrio Kuromi Big Belly Water Cup with Straw</h3>
                 <p>$19.99</p>
+                <button class="add-to-cart">Add to cart</button>
             </div>
+
+            <p>🛒 Cart: <span id="cart-count">0</span> items</p>
         </div>
 
         <h2>Link to other useful pages</h2>
         <p><a href="contact.html">Contact Us</a></p>
         <p><a href="Help.html">Need More Help?</a></p>
+        <script src="cart.js"></script>
+
+        <!-- Toast Notification -->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="cartToast" class="toast align-items-center text-bg-success border-0" role="alert">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        🛒 已加入购物车！
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>
+            </div>
+        </div>
     </body>

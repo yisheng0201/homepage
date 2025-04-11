@@ -1,0 +1,9 @@
+HTML TAG: <h1>, <div>, <a href>, <img>, <label>, <input>, <br>, <form>, <textarea>, <button>, <h2>
+
+CSS prperties: text-align, font-size, background, margin-top, width
+
+CSS selectors: #name, .section, .back-button, .page-title, .product gallery
+
+I used javascript to update the number of items in the shopping cart.
+
+I used toast notification for the website, so the customer knows when a item is add to the cart.
